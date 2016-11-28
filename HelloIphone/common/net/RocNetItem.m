@@ -93,7 +93,7 @@
             }];
         }else if (netType==RocNetPOST){
             
-            [manager POST:url parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
+            [manager POST:url parameters:params progress:nil success:^(NSURLSessionTask *task, id responseObject) {
                 [MBProgressHUD dissmiss];
                 int code = 0;
                 NSString *msg = nil;
@@ -111,7 +111,7 @@
                 }
                 [weakSelf performSelector:@selector(finishedRequest: didFaild:) withObject:responseObject withObject:nil];
                 [weakSelf removewItem];
-            } failure:^(AFHTTPRequestOperation *operation, NSError *error)
+            } failure:^(NSURLSessionTask *operation, NSError *error)
              {
                  [MBProgressHUD dissmiss];
                  DTLog(@"---error==%@\n",error.localizedDescription);
@@ -135,8 +135,8 @@
 {
     __weak typeof(self)weakSelf = self;
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        if ([weakSelf.delegate respondsToSelector:@selector(netWorkWillDealloc:)]) {
-            [weakSelf.delegate netWorkWillDealloc:weakSelf];
+        if ([weakSelf.delegate respondsToSelector:@selector(netWillDealloc:)]) {
+            [self netWillDealloc:weakSelf];
         }
     });
 }

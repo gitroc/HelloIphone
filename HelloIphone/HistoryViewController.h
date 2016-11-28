@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RocNetDelegate.h"
 
 @interface HistoryViewController : UIViewController
 

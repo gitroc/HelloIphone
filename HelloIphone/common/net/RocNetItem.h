@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "RocNetDefine.h"
 #import "RocNetDelegate.h"
+#import "RocNetBlock.h"
 
 /**
  *  网络请求子项
@@ -33,7 +34,7 @@
 /**
  *  网络请求的委托
  */
-@property (nonatomic, assign) id<RocNetDelegate>delegate;
+@property (nonatomic, assign) id <RocNetDelegate> delegate;
 /**
  *   target
  */
@@ -74,4 +75,5 @@
                       successBlock:(RocSuccessBlock)successBlock
                       failureBlock:(RocFailureBlock)failureBlock;
 
+- (void)netWillDealloc:(RocNetItem*)itme;
 @end

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RocNetItem.h"
+
 /**
  *   AFN 请求封装的代理协议
  */
@@ -27,7 +27,5 @@
  */
 - (void)requestdidFailWithError:(NSError*)error;
 
-
-- (void)netWillDealloc:(RocNetItem*)itme;
 
 @end

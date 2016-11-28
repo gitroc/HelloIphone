@@ -7,10 +7,12 @@
 //
 
 #import "HistoryViewController.h"
-#import "AFNetworking.h"//主要用于网络请求方法
+//#import "AFNetworking.h"//主要用于网络请求方法
 #import "UIKit+AFNetworking.h"//里面有异步加载图片的方法
+#import "RocNetManager.h"
+#import "RocNetItem.h"
 
-@interface HistoryViewController ()
+@interface HistoryViewController () <RocNetDelegate>
 
 @property (nonatomic, strong) NSArray         *standImages;
 @property (nonatomic, strong) NSArray         *xiaozhaoImages;
@@ -105,21 +107,61 @@
 */
 
 - (IBAction)onClickGet:(id)sender {
-    NSURL *URL = [NSURL URLWithString:@"http://example.com/resources/123.json"];
-    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    [manager GET:URL.absoluteString parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
-        NSLog(@"JSON: %@", responseObject);
-    } failure:^(NSURLSessionTask *operation, NSError *error) {
-        NSLog(@"Error: %@", error);
-    }];
+   
 }
 
 - (IBAction)onClickPost:(id)sender {
-    
+     [self delegate];
 }
 
 - (IBAction)onClickIpLoad:(id)sender {
     
+}
+
+
+- (void) block {
+    [RocNetManager postReqeustWithURL:@"http://www.perasst.com:8081/perasst_v2/user/login.pa" params:@{@"userName":@"18538320461",@"password":@"123456"} successBlock:^(id returnData,int code,NSString *msg) {
+        
+        NSLog(@"hello i am bolck----%@",returnData);
+        
+    } failureBlock:^(NSError *error) {
+        
+        NSLog(@"hello i am bolck-----%@",error.localizedDescription);
+        
+    } showHUD:YES];
+}
+
+- (void) delegate {
+    NSLog(@"hello,  i am delegate");
+    [RocNetManager postReqeustWithURL:@"http://www.perasst.com:8081/perasst_v2/user/login.pa" params:@{@"userName":@"18538320461",@"password":@"123456"} delegate:self showHUD:YES];
+}
+
+/**
+ *   请求结束
+ *
+ *   @param returnData 返回的数据
+ */
+- (void)requestDidFinishLoading:(NSDictionary*)returnData {
+    NSLog(@"hello i am delegate-----%@",returnData);
+}
+/**
+ *   请求失败
+ *
+ *   @param error 失败的 error
+ */
+- (void)requestdidFailWithError:(NSError*)error{
+    NSLog(@"hello i am delegate-----%@",error);
+}
+
+- (void) sel {
+    NSLog(@"hello, i am sel");
+    [RocNetManager postReqeustWithURL:@"http://www.perasst.com:8081/perasst_v2/user/login.pa" params:@{@"userName":@"18538320461",@"password":@"123456"} target:self action:@selector(finishedRequest:didFaild:) showHUD:YES];
+}
+
+#pragma mark - target
+- (void)finishedRequest:(id)data didFaild:(NSError*)error
+{
+    NSLog(@"hello, i am sel---%@-%@",data,error);
 }
 
 - (IBAction)stand:(id)sender {

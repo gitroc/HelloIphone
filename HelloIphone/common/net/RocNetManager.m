@@ -7,6 +7,7 @@
 //
 
 #import "RocNetManager.h"
+#import "RocNetHandler.h"
 #import "AFNetworking.h"
 
 /**
@@ -29,13 +30,40 @@
     return [[super alloc] init];
 }
 
+#pragma makr - 开始监听网络连接
+
++ (void)startMonitoring
+{
+    // 1.获得网络监控的管理者
+    AFNetworkReachabilityManager *mgr = [AFNetworkReachabilityManager sharedManager];
+    // 2.设置网络状态改变后的处理
+    [mgr setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        // 当网络状态改变了, 就会调用这个block
+        switch (status) {
+            case AFNetworkReachabilityStatusUnknown: // 未知网络
+                NSLog(@"未知网络");
+                break;
+            case AFNetworkReachabilityStatusNotReachable: // 没有网络(断网)
+                [RocNetHandler sharedInstance].networkError = YES;
+                break;
+            case AFNetworkReachabilityStatusReachableViaWWAN: // 手机自带网络
+                NSLog(@"手机自带网络");
+                break;
+            case AFNetworkReachabilityStatusReachableViaWiFi: // WIFI
+                NSLog(@"WIFI");
+                break;
+        }
+    }];
+    [mgr startMonitoring];
+}
+
 #pragma mark - GET 请求的三种回调方法
 
 /**
  *   GET请求的公共方法 一下三种方法都调用这个方法 根据传入的不同参数觉得回调的方式
  *
- *   @param url           ur
- *   @param paramsDict   paramsDict
+ *   @param url          ur
+ *   @param params       params
  *   @param target       target
  *   @param action       action
  *   @param delegate     delegate
@@ -53,16 +81,16 @@
                  showHUD:(BOOL)showHUD
 {
     NSMutableDictionary *mutableDict = [NSMutableDictionary dictionaryWithDictionary:params];
-    [[RocNetHandler sharedInstance] conURL:url networkType:MHAsiNetWorkGET params:mutableDict delegate:delegate showHUD:showHUD target:target action:action successBlock:successBlock failureBlock:failureBlock];
+    [[RocNetHandler sharedInstance] conURL:url netType:RocNetGET params:mutableDict delegate:delegate showHUD:showHUD target:target action:action successBlock:successBlock failureBlock:failureBlock];
 }
 /**
  *   GET请求通过Block 回调结果
  *
- *   @param url          url
- *   @param paramsDict   paramsDict
+ *   @param url           url
+ *   @param params        params
  *   @param successBlock  成功的回调
  *   @param failureBlock  失败的回调
- *   @param showHUD      是否加载进度指示器
+ *   @param showHUD       是否加载进度指示器
  */
 + (void)getRequstWithURL:(NSString*)url
                   params:(NSDictionary*)params
@@ -76,7 +104,7 @@
  *   GET请求通过代理回调
  *
  *   @param url         url
- *   @param paramsDict  请求的参数
+ *   @param params      请求的参数
  *   @param delegate    delegate
  *   @param showHUD    是否转圈圈
  */
@@ -92,7 +120,7 @@
  *   get 请求通过 taget 回调方法
  *
  *   @param url         url
- *   @param paramsDict  请求参数的字典
+ *   @param params      请求参数的字典
  *   @param target      target
  *   @param action      action
  *   @param showHUD     是否加载进度指示器
@@ -110,8 +138,8 @@
 /**
  *   发送一个 POST请求的公共方法 传入不同的回调参数决定回调的方式
  *
- *   @param url           ur
- *   @param paramsDict   paramsDict
+ *   @param url          ur
+ *   @param params       params
  *   @param target       target
  *   @param action       action
  *   @param delegate     delegate
@@ -129,13 +157,13 @@
                    showHUD:(BOOL)showHUD
 {
     NSMutableDictionary *mutableDict = [NSMutableDictionary dictionaryWithDictionary:params];
-    [[RocNetHandler sharedInstance] conURL:url networkType:MHAsiNetWorkPOST params:mutableDict delegate:delegate showHUD:showHUD target:target action:action successBlock:successBlock failureBlock:failureBlock];
+    [[RocNetHandler sharedInstance] conURL:url netType:RocNetPOST params:mutableDict delegate:delegate showHUD:showHUD target:target action:action successBlock:successBlock failureBlock:failureBlock];
 }
 /**
  *   通过 Block回调结果
  *
  *   @param url           url
- *   @param paramsDict    请求的参数字典
+ *   @param params        请求的参数字典
  *   @param successBlock  成功的回调
  *   @param failureBlock  失败的回调
  *   @param showHUD       是否加载进度指示器
@@ -153,7 +181,7 @@
  *   post请求通过代理回调
  *
  *   @param url         url
- *   @param paramsDict  请求的参数
+ *   @param params      请求的参数
  *   @param delegate    delegate
  *   @param showHUD    是否转圈圈
  */
@@ -170,7 +198,7 @@
  *   post 请求通过 target 回调结果
  *
  *   @param url         url
- *   @param paramsDict  请求参数的字典
+ *   @param params      请求参数的字典
  *   @param target      target
  *   @param showHUD     是否显示圈圈
  */

@@ -9,10 +9,16 @@
 #import <Foundation/Foundation.h>
 #import "RocNetDefine.h"
 #import "RocNetDelegate.h"
+#import "RocNetBlock.h"
 
 @interface RocNetManager : NSObject
 /// 返回单例
 +(instancetype)sharedInstance;
+
+/**
+ *   监听网络状态的变化
+ */
++ (void)startMonitoring;
 
 #pragma mark - 发送 GET 请求的方法
 

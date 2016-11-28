@@ -7,6 +7,7 @@
 //
 
 #import "TabBarDelagate.h"
+#import "RocNetManager.h"
 
 @implementation TabBarDelagate
 @synthesize window = _window;
@@ -24,6 +25,9 @@
     
     self.window.rootViewController = _TabBarViewController;
     [self.window makeKeyAndVisible];
+    
+    
+    [RocNetManager startMonitoring];
     
     return YES;
 }
