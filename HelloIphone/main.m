@@ -10,9 +10,10 @@
 #import "TabNavDelegate.h"
 #import "TabBarDelagate.h"
 #import "AppDelegate.h"
+#import "AutoLayoutDelegate.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([TabBarDelagate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AutoLayoutDelegate class]));
     }
 }

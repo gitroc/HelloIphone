@@ -26,7 +26,7 @@
                     <autoresizingMask key="autoresizingMask"/>
                 </navigationBar>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QjZ-fe-Rgd">
-                    <rect key="frame" x="0.0" y="60" width="375" height="249"/>
+                    <rect key="frame" x="0.0" y="60" width="375" height="117"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sa9-64-Oji">
@@ -77,9 +77,19 @@
                         <action selector="onClickGet:" destination="-1" eventType="touchUpInside" id="Unr-65-V9Z"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NF6-9p-Xeh">
+                    <rect key="frame" x="196.5" y="279.5" width="37" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <point key="canvasLocation" x="24.5" y="52.5"/>
+            <constraints>
+                <constraint firstItem="NF6-9p-Xeh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="27.5" id="Geh-lf-cR9"/>
+                <constraint firstItem="NF6-9p-Xeh" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-43.5" id="wnU-Op-mV8"/>
+            </constraints>
+            <point key="canvasLocation" x="24" y="52"/>
         </view>
     </objects>
 </document>

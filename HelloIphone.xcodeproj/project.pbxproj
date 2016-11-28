@@ -9,32 +9,11 @@
 /* Begin PBXBuildFile section */
 		80288F623304E20EB3806ED7 /* libPods-HelloIphone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE28CA064EE2395D068AF210 /* libPods-HelloIphone.a */; };
 		D84133311DDBEF7B00FA9727 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D84133301DDBEF7B00FA9727 /* main.m */; };
-		D84133341DDBEF7B00FA9727 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D84133331DDBEF7B00FA9727 /* AppDelegate.m */; };
 		D841333D1DDBEF7B00FA9727 /* HelloIphone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D841333B1DDBEF7B00FA9727 /* HelloIphone.xcdatamodeld */; };
 		D841333F1DDBEF7B00FA9727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D841333E1DDBEF7B00FA9727 /* Assets.xcassets */; };
 		D84133421DDBEF7B00FA9727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84133401DDBEF7B00FA9727 /* LaunchScreen.storyboard */; };
-		D841334E1DDC002C00FA9727 /* HelloIphoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D841334C1DDC002C00FA9727 /* HelloIphoneViewController.m */; };
-		D841334F1DDC002C00FA9727 /* HelloIphoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D841334D1DDC002C00FA9727 /* HelloIphoneViewController.xib */; };
 		D841337B1DDD52C400FA9727 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D841337A1DDD52C400FA9727 /* main.storyboard */; };
-		D84133841DDD7DCA00FA9727 /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84133831DDD7DCA00FA9727 /* TabBarViewController.xib */; };
-		D84133871DDD7E1F00FA9727 /* TabBarDelagate.m in Sources */ = {isa = PBXBuildFile; fileRef = D84133861DDD7E1F00FA9727 /* TabBarDelagate.m */; };
-		D84CA8241DDD8D7A003CB297 /* NewCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84CA8221DDD8D7A003CB297 /* NewCaseViewController.m */; };
-		D84CA8251DDD8D7A003CB297 /* NewCaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84CA8231DDD8D7A003CB297 /* NewCaseViewController.xib */; };
-		D84CA82A1DDD8E55003CB297 /* CallHeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84CA8281DDD8E55003CB297 /* CallHeadViewController.m */; };
-		D84CA82B1DDD8E55003CB297 /* CallHeadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84CA8291DDD8E55003CB297 /* CallHeadViewController.xib */; };
-		D84CA82F1DDD8E83003CB297 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84CA82D1DDD8E83003CB297 /* HistoryViewController.m */; };
-		D84CA8301DDD8E83003CB297 /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84CA82E1DDD8E83003CB297 /* HistoryViewController.xib */; };
-		D84CA8361DDEAA7F003CB297 /* songInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D84CA8351DDEAA7F003CB297 /* songInfo.plist */; };
 		D84CA83A1DDED48F003CB297 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84CA8391DDED48F003CB297 /* JavaScriptCore.framework */; };
-		D881BD271DE292810028B8FF /* TabNavDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D881BD261DE292810028B8FF /* TabNavDelegate.m */; };
-		D881BD2B1DE293400028B8FF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D881BD291DE293400028B8FF /* FirstViewController.m */; };
-		D881BD2C1DE293400028B8FF /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D881BD2A1DE293400028B8FF /* FirstViewController.xib */; };
-		D881BD351DE2939D0028B8FF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D881BD331DE2939D0028B8FF /* SecondViewController.m */; };
-		D881BD361DE2939D0028B8FF /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D881BD341DE2939D0028B8FF /* SecondViewController.xib */; };
-		D881BD3A1DE293AE0028B8FF /* DisplaySettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D881BD381DE293AE0028B8FF /* DisplaySettingViewController.m */; };
-		D881BD3B1DE293AE0028B8FF /* DisplaySettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D881BD391DE293AE0028B8FF /* DisplaySettingViewController.xib */; };
-		D881BD3F1DE293BD0028B8FF /* PopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D881BD3D1DE293BD0028B8FF /* PopUpViewController.m */; };
-		D881BD401DE293BD0028B8FF /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D881BD3E1DE293BD0028B8FF /* PopUpViewController.xib */; };
 		D8A52D6C1DE580800065C5BF /* dazhao_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A52CE61DE580800065C5BF /* dazhao_1.png */; };
 		D8A52D6D1DE580800065C5BF /* dazhao_10.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A52CE71DE580800065C5BF /* dazhao_10.png */; };
 		D8A52D6E1DE580800065C5BF /* dazhao_11.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A52CE81DE580800065C5BF /* dazhao_11.png */; };
@@ -172,49 +151,42 @@
 		D8B3A1FE1DE7D6F900D04A55 /* RocNetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B3A1F61DE7D6F900D04A55 /* RocNetHandler.m */; };
 		D8B3A1FF1DE7D6F900D04A55 /* RocNetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B3A1F81DE7D6F900D04A55 /* RocNetItem.m */; };
 		D8B3A2001DE7D6F900D04A55 /* RocNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B3A1FA1DE7D6F900D04A55 /* RocNetManager.m */; };
+		D8D82D8E1DEBF665001B6022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82D8A1DEBF665001B6022 /* AppDelegate.m */; };
+		D8D82D8F1DEBF665001B6022 /* HelloIphoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82D8C1DEBF665001B6022 /* HelloIphoneViewController.m */; };
+		D8D82D901DEBF665001B6022 /* HelloIphoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D82D8D1DEBF665001B6022 /* HelloIphoneViewController.xib */; };
+		D8D82D9F1DEBFA88001B6022 /* CallHeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82D931DEBFA88001B6022 /* CallHeadViewController.m */; };
+		D8D82DA01DEBFA88001B6022 /* CallHeadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D82D941DEBFA88001B6022 /* CallHeadViewController.xib */; };
+		D8D82DA11DEBFA88001B6022 /* NewCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82D961DEBFA88001B6022 /* NewCaseViewController.m */; };
+		D8D82DA21DEBFA88001B6022 /* NewCaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D82D971DEBFA88001B6022 /* NewCaseViewController.xib */; };
+		D8D82DA31DEBFA88001B6022 /* songInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8D82D981DEBFA88001B6022 /* songInfo.plist */; };
+		D8D82DA41DEBFA88001B6022 /* SonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82D9A1DEBFA88001B6022 /* SonViewController.m */; };
+		D8D82DA51DEBFA88001B6022 /* SonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D82D9B1DEBFA88001B6022 /* SonViewController.xib */; };
+		D8D82DA61DEBFA88001B6022 /* TabBarDelagate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82D9D1DEBFA88001B6022 /* TabBarDelagate.m */; };
+		D8D82DA71DEBFA88001B6022 /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D82D9E1DEBFA88001B6022 /* TabBarViewController.xib */; };
+		D8D82DBB1DEBFB1B001B6022 /* DisplaySettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82DAB1DEBFB1B001B6022 /* DisplaySettingViewController.m */; };
+		D8D82DBC1DEBFB1B001B6022 /* DisplaySettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D82DAC1DEBFB1B001B6022 /* DisplaySettingViewController.xib */; };
+		D8D82DBD1DEBFB1B001B6022 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82DAE1DEBFB1B001B6022 /* FirstViewController.m */; };
+		D8D82DBE1DEBFB1B001B6022 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D82DAF1DEBFB1B001B6022 /* FirstViewController.xib */; };
+		D8D82DBF1DEBFB1B001B6022 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82DB11DEBFB1B001B6022 /* HistoryViewController.m */; };
+		D8D82DC01DEBFB1B001B6022 /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D82DB21DEBFB1B001B6022 /* HistoryViewController.xib */; };
+		D8D82DC11DEBFB1B001B6022 /* PopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82DB41DEBFB1B001B6022 /* PopUpViewController.m */; };
+		D8D82DC21DEBFB1B001B6022 /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D82DB51DEBFB1B001B6022 /* PopUpViewController.xib */; };
+		D8D82DC31DEBFB1B001B6022 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82DB71DEBFB1B001B6022 /* SecondViewController.m */; };
+		D8D82DC41DEBFB1B001B6022 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D82DB81DEBFB1B001B6022 /* SecondViewController.xib */; };
+		D8D82DC51DEBFB1B001B6022 /* TabNavDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82DBA1DEBFB1B001B6022 /* TabNavDelegate.m */; };
+		D8D82DC91DEBFCB1001B6022 /* AutoLayoutDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D82DC81DEBFCB1001B6022 /* AutoLayoutDelegate.m */; };
+		D8D82DCB1DEBFD51001B6022 /* AutoLayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D82DCA1DEBFD51001B6022 /* AutoLayout.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D841332C1DDBEF7B00FA9727 /* HelloIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D84133301DDBEF7B00FA9727 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D84133321DDBEF7B00FA9727 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D84133331DDBEF7B00FA9727 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D841333C1DDBEF7B00FA9727 /* HelloIphone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloIphone.xcdatamodel; sourceTree = "<group>"; };
 		D841333E1DDBEF7B00FA9727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D84133411DDBEF7B00FA9727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D84133431DDBEF7B00FA9727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D841334B1DDC002C00FA9727 /* HelloIphoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloIphoneViewController.h; sourceTree = "<group>"; };
-		D841334C1DDC002C00FA9727 /* HelloIphoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloIphoneViewController.m; sourceTree = "<group>"; };
-		D841334D1DDC002C00FA9727 /* HelloIphoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloIphoneViewController.xib; sourceTree = "<group>"; };
 		D841337A1DDD52C400FA9727 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
-		D84133831DDD7DCA00FA9727 /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
-		D84133851DDD7E1F00FA9727 /* TabBarDelagate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarDelagate.h; sourceTree = "<group>"; };
-		D84133861DDD7E1F00FA9727 /* TabBarDelagate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarDelagate.m; sourceTree = "<group>"; };
-		D84CA8211DDD8D7A003CB297 /* NewCaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCaseViewController.h; sourceTree = "<group>"; };
-		D84CA8221DDD8D7A003CB297 /* NewCaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCaseViewController.m; sourceTree = "<group>"; };
-		D84CA8231DDD8D7A003CB297 /* NewCaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCaseViewController.xib; sourceTree = "<group>"; };
-		D84CA8271DDD8E55003CB297 /* CallHeadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallHeadViewController.h; sourceTree = "<group>"; };
-		D84CA8281DDD8E55003CB297 /* CallHeadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallHeadViewController.m; sourceTree = "<group>"; };
-		D84CA8291DDD8E55003CB297 /* CallHeadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallHeadViewController.xib; sourceTree = "<group>"; };
-		D84CA82C1DDD8E83003CB297 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
-		D84CA82D1DDD8E83003CB297 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
-		D84CA82E1DDD8E83003CB297 /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
-		D84CA8351DDEAA7F003CB297 /* songInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = songInfo.plist; sourceTree = "<group>"; };
 		D84CA8391DDED48F003CB297 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		D881BD251DE292810028B8FF /* TabNavDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabNavDelegate.h; sourceTree = "<group>"; };
-		D881BD261DE292810028B8FF /* TabNavDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabNavDelegate.m; sourceTree = "<group>"; };
-		D881BD281DE293400028B8FF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		D881BD291DE293400028B8FF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		D881BD2A1DE293400028B8FF /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
-		D881BD321DE2939D0028B8FF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		D881BD331DE2939D0028B8FF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		D881BD341DE2939D0028B8FF /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
-		D881BD371DE293AE0028B8FF /* DisplaySettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplaySettingViewController.h; sourceTree = "<group>"; };
-		D881BD381DE293AE0028B8FF /* DisplaySettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplaySettingViewController.m; sourceTree = "<group>"; };
-		D881BD391DE293AE0028B8FF /* DisplaySettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplaySettingViewController.xib; sourceTree = "<group>"; };
-		D881BD3C1DE293BD0028B8FF /* PopUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpViewController.h; sourceTree = "<group>"; };
-		D881BD3D1DE293BD0028B8FF /* PopUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpViewController.m; sourceTree = "<group>"; };
-		D881BD3E1DE293BD0028B8FF /* PopUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController.xib; sourceTree = "<group>"; };
 		D8A52CE61DE580800065C5BF /* dazhao_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dazhao_1.png; sourceTree = "<group>"; };
 		D8A52CE71DE580800065C5BF /* dazhao_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dazhao_10.png; sourceTree = "<group>"; };
 		D8A52CE81DE580800065C5BF /* dazhao_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dazhao_11.png; sourceTree = "<group>"; };
@@ -360,6 +332,44 @@
 		D8B3A1F91DE7D6F900D04A55 /* RocNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RocNetManager.h; sourceTree = "<group>"; };
 		D8B3A1FA1DE7D6F900D04A55 /* RocNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RocNetManager.m; sourceTree = "<group>"; };
 		D8D82D501DEBBC05001B6022 /* RocNetBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RocNetBlock.h; sourceTree = "<group>"; };
+		D8D82D891DEBF665001B6022 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8D82D8A1DEBF665001B6022 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8D82D8B1DEBF665001B6022 /* HelloIphoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloIphoneViewController.h; sourceTree = "<group>"; };
+		D8D82D8C1DEBF665001B6022 /* HelloIphoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloIphoneViewController.m; sourceTree = "<group>"; };
+		D8D82D8D1DEBF665001B6022 /* HelloIphoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloIphoneViewController.xib; sourceTree = "<group>"; };
+		D8D82D921DEBFA88001B6022 /* CallHeadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallHeadViewController.h; sourceTree = "<group>"; };
+		D8D82D931DEBFA88001B6022 /* CallHeadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallHeadViewController.m; sourceTree = "<group>"; };
+		D8D82D941DEBFA88001B6022 /* CallHeadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallHeadViewController.xib; sourceTree = "<group>"; };
+		D8D82D951DEBFA88001B6022 /* NewCaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCaseViewController.h; sourceTree = "<group>"; };
+		D8D82D961DEBFA88001B6022 /* NewCaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCaseViewController.m; sourceTree = "<group>"; };
+		D8D82D971DEBFA88001B6022 /* NewCaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCaseViewController.xib; sourceTree = "<group>"; };
+		D8D82D981DEBFA88001B6022 /* songInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = songInfo.plist; sourceTree = "<group>"; };
+		D8D82D991DEBFA88001B6022 /* SonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonViewController.h; sourceTree = "<group>"; };
+		D8D82D9A1DEBFA88001B6022 /* SonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonViewController.m; sourceTree = "<group>"; };
+		D8D82D9B1DEBFA88001B6022 /* SonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SonViewController.xib; sourceTree = "<group>"; };
+		D8D82D9C1DEBFA88001B6022 /* TabBarDelagate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarDelagate.h; sourceTree = "<group>"; };
+		D8D82D9D1DEBFA88001B6022 /* TabBarDelagate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarDelagate.m; sourceTree = "<group>"; };
+		D8D82D9E1DEBFA88001B6022 /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
+		D8D82DAA1DEBFB1B001B6022 /* DisplaySettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplaySettingViewController.h; sourceTree = "<group>"; };
+		D8D82DAB1DEBFB1B001B6022 /* DisplaySettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplaySettingViewController.m; sourceTree = "<group>"; };
+		D8D82DAC1DEBFB1B001B6022 /* DisplaySettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplaySettingViewController.xib; sourceTree = "<group>"; };
+		D8D82DAD1DEBFB1B001B6022 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D8D82DAE1DEBFB1B001B6022 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D8D82DAF1DEBFB1B001B6022 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		D8D82DB01DEBFB1B001B6022 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		D8D82DB11DEBFB1B001B6022 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		D8D82DB21DEBFB1B001B6022 /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		D8D82DB31DEBFB1B001B6022 /* PopUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpViewController.h; sourceTree = "<group>"; };
+		D8D82DB41DEBFB1B001B6022 /* PopUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpViewController.m; sourceTree = "<group>"; };
+		D8D82DB51DEBFB1B001B6022 /* PopUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController.xib; sourceTree = "<group>"; };
+		D8D82DB61DEBFB1B001B6022 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D8D82DB71DEBFB1B001B6022 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D8D82DB81DEBFB1B001B6022 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		D8D82DB91DEBFB1B001B6022 /* TabNavDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabNavDelegate.h; sourceTree = "<group>"; };
+		D8D82DBA1DEBFB1B001B6022 /* TabNavDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabNavDelegate.m; sourceTree = "<group>"; };
+		D8D82DC71DEBFCB1001B6022 /* AutoLayoutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutDelegate.h; sourceTree = "<group>"; };
+		D8D82DC81DEBFCB1001B6022 /* AutoLayoutDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutDelegate.m; sourceTree = "<group>"; };
+		D8D82DCA1DEBFD51001B6022 /* AutoLayout.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AutoLayout.storyboard; sourceTree = "<group>"; };
 		DE07241D0AB19EAC71F1306A /* Pods-HelloIphone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloIphone.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloIphone/Pods-HelloIphone.release.xcconfig"; sourceTree = "<group>"; };
 		DE28CA064EE2395D068AF210 /* libPods-HelloIphone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloIphone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA23BF46C6C49D8C1B14D261 /* Pods-HelloIphone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloIphone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloIphone/Pods-HelloIphone.debug.xcconfig"; sourceTree = "<group>"; };
@@ -408,10 +418,11 @@
 		D841332E1DDBEF7B00FA9727 /* HelloIphone */ = {
 			isa = PBXGroup;
 			children = (
+				D8D82DC61DEBFC62001B6022 /* AutoLayout */,
+				D8D82DA91DEBFB1B001B6022 /* TabNav */,
+				D8D82D911DEBFA88001B6022 /* TabBar */,
+				D8D82D881DEBF665001B6022 /* Hello */,
 				D8B3A1EB1DE7D6F900D04A55 /* common */,
-				D881BD211DE291970028B8FF /* Hello */,
-				D881BD201DE2917F0028B8FF /* TabNav */,
-				D84CA8261DDD8D8E003CB297 /* TabBar */,
 				D841333E1DDBEF7B00FA9727 /* Assets.xcassets */,
 				D84133401DDBEF7B00FA9727 /* LaunchScreen.storyboard */,
 				D84133431DDBEF7B00FA9727 /* Info.plist */,
@@ -431,26 +442,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D84CA8261DDD8D8E003CB297 /* TabBar */ = {
-			isa = PBXGroup;
-			children = (
-				D84CA8351DDEAA7F003CB297 /* songInfo.plist */,
-				D84133831DDD7DCA00FA9727 /* TabBarViewController.xib */,
-				D84CA8211DDD8D7A003CB297 /* NewCaseViewController.h */,
-				D84CA8221DDD8D7A003CB297 /* NewCaseViewController.m */,
-				D84CA8231DDD8D7A003CB297 /* NewCaseViewController.xib */,
-				D84133851DDD7E1F00FA9727 /* TabBarDelagate.h */,
-				D84133861DDD7E1F00FA9727 /* TabBarDelagate.m */,
-				D84CA8271DDD8E55003CB297 /* CallHeadViewController.h */,
-				D84CA8281DDD8E55003CB297 /* CallHeadViewController.m */,
-				D84CA8291DDD8E55003CB297 /* CallHeadViewController.xib */,
-				D84CA82C1DDD8E83003CB297 /* HistoryViewController.h */,
-				D84CA82D1DDD8E83003CB297 /* HistoryViewController.m */,
-				D84CA82E1DDD8E83003CB297 /* HistoryViewController.xib */,
-			);
-			name = TabBar;
-			sourceTree = "<group>";
-		};
 		D84CA8381DDED48F003CB297 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -458,39 +449,6 @@
 				DE28CA064EE2395D068AF210 /* libPods-HelloIphone.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D881BD201DE2917F0028B8FF /* TabNav */ = {
-			isa = PBXGroup;
-			children = (
-				D881BD251DE292810028B8FF /* TabNavDelegate.h */,
-				D881BD261DE292810028B8FF /* TabNavDelegate.m */,
-				D881BD281DE293400028B8FF /* FirstViewController.h */,
-				D881BD291DE293400028B8FF /* FirstViewController.m */,
-				D881BD2A1DE293400028B8FF /* FirstViewController.xib */,
-				D881BD321DE2939D0028B8FF /* SecondViewController.h */,
-				D881BD331DE2939D0028B8FF /* SecondViewController.m */,
-				D881BD341DE2939D0028B8FF /* SecondViewController.xib */,
-				D881BD371DE293AE0028B8FF /* DisplaySettingViewController.h */,
-				D881BD381DE293AE0028B8FF /* DisplaySettingViewController.m */,
-				D881BD391DE293AE0028B8FF /* DisplaySettingViewController.xib */,
-				D881BD3C1DE293BD0028B8FF /* PopUpViewController.h */,
-				D881BD3D1DE293BD0028B8FF /* PopUpViewController.m */,
-				D881BD3E1DE293BD0028B8FF /* PopUpViewController.xib */,
-			);
-			name = TabNav;
-			sourceTree = "<group>";
-		};
-		D881BD211DE291970028B8FF /* Hello */ = {
-			isa = PBXGroup;
-			children = (
-				D84133321DDBEF7B00FA9727 /* AppDelegate.h */,
-				D84133331DDBEF7B00FA9727 /* AppDelegate.m */,
-				D841334B1DDC002C00FA9727 /* HelloIphoneViewController.h */,
-				D841334C1DDC002C00FA9727 /* HelloIphoneViewController.m */,
-				D841334D1DDC002C00FA9727 /* HelloIphoneViewController.xib */,
-			);
-			name = Hello;
 			sourceTree = "<group>";
 		};
 		D8A52CE41DE580800065C5BF /* Kof */ = {
@@ -692,6 +650,72 @@
 			path = net;
 			sourceTree = "<group>";
 		};
+		D8D82D881DEBF665001B6022 /* Hello */ = {
+			isa = PBXGroup;
+			children = (
+				D8D82D891DEBF665001B6022 /* AppDelegate.h */,
+				D8D82D8A1DEBF665001B6022 /* AppDelegate.m */,
+				D8D82D8B1DEBF665001B6022 /* HelloIphoneViewController.h */,
+				D8D82D8C1DEBF665001B6022 /* HelloIphoneViewController.m */,
+				D8D82D8D1DEBF665001B6022 /* HelloIphoneViewController.xib */,
+			);
+			path = Hello;
+			sourceTree = "<group>";
+		};
+		D8D82D911DEBFA88001B6022 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D8D82D921DEBFA88001B6022 /* CallHeadViewController.h */,
+				D8D82D931DEBFA88001B6022 /* CallHeadViewController.m */,
+				D8D82D941DEBFA88001B6022 /* CallHeadViewController.xib */,
+				D8D82D951DEBFA88001B6022 /* NewCaseViewController.h */,
+				D8D82D961DEBFA88001B6022 /* NewCaseViewController.m */,
+				D8D82D971DEBFA88001B6022 /* NewCaseViewController.xib */,
+				D8D82D981DEBFA88001B6022 /* songInfo.plist */,
+				D8D82D991DEBFA88001B6022 /* SonViewController.h */,
+				D8D82D9A1DEBFA88001B6022 /* SonViewController.m */,
+				D8D82D9B1DEBFA88001B6022 /* SonViewController.xib */,
+				D8D82D9C1DEBFA88001B6022 /* TabBarDelagate.h */,
+				D8D82D9D1DEBFA88001B6022 /* TabBarDelagate.m */,
+				D8D82D9E1DEBFA88001B6022 /* TabBarViewController.xib */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D8D82DA91DEBFB1B001B6022 /* TabNav */ = {
+			isa = PBXGroup;
+			children = (
+				D8D82DAA1DEBFB1B001B6022 /* DisplaySettingViewController.h */,
+				D8D82DAB1DEBFB1B001B6022 /* DisplaySettingViewController.m */,
+				D8D82DAC1DEBFB1B001B6022 /* DisplaySettingViewController.xib */,
+				D8D82DAD1DEBFB1B001B6022 /* FirstViewController.h */,
+				D8D82DAE1DEBFB1B001B6022 /* FirstViewController.m */,
+				D8D82DAF1DEBFB1B001B6022 /* FirstViewController.xib */,
+				D8D82DB01DEBFB1B001B6022 /* HistoryViewController.h */,
+				D8D82DB11DEBFB1B001B6022 /* HistoryViewController.m */,
+				D8D82DB21DEBFB1B001B6022 /* HistoryViewController.xib */,
+				D8D82DB31DEBFB1B001B6022 /* PopUpViewController.h */,
+				D8D82DB41DEBFB1B001B6022 /* PopUpViewController.m */,
+				D8D82DB51DEBFB1B001B6022 /* PopUpViewController.xib */,
+				D8D82DB61DEBFB1B001B6022 /* SecondViewController.h */,
+				D8D82DB71DEBFB1B001B6022 /* SecondViewController.m */,
+				D8D82DB81DEBFB1B001B6022 /* SecondViewController.xib */,
+				D8D82DB91DEBFB1B001B6022 /* TabNavDelegate.h */,
+				D8D82DBA1DEBFB1B001B6022 /* TabNavDelegate.m */,
+			);
+			path = TabNav;
+			sourceTree = "<group>";
+		};
+		D8D82DC61DEBFC62001B6022 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D8D82DC71DEBFCB1001B6022 /* AutoLayoutDelegate.h */,
+				D8D82DC81DEBFCB1001B6022 /* AutoLayoutDelegate.m */,
+				D8D82DCA1DEBFD51001B6022 /* AutoLayout.storyboard */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -766,6 +790,7 @@
 				D8A52D701DE580800065C5BF /* dazhao_13.png in Resources */,
 				D8A52D6F1DE580800065C5BF /* dazhao_12.png in Resources */,
 				D8A52DC01DE580800065C5BF /* dazhao_86.png in Resources */,
+				D8D82DA31DEBFA88001B6022 /* songInfo.plist in Resources */,
 				D8A52D861DE580800065C5BF /* dazhao_33.png in Resources */,
 				D8A52DEB1DE580800065C5BF /* xiaozhao2_5.png in Resources */,
 				D8A52DA61DE580800065C5BF /* dazhao_62.png in Resources */,
@@ -775,17 +800,17 @@
 				D8A52DE21DE580800065C5BF /* xiaozhao2_29.png in Resources */,
 				D8A52DD51DE580800065C5BF /* xiaozhao2_17.png in Resources */,
 				D8A52D921DE580800065C5BF /* dazhao_44.png in Resources */,
+				D8D82DC41DEBFB1B001B6022 /* SecondViewController.xib in Resources */,
 				D8A52DB61DE580800065C5BF /* dazhao_77.png in Resources */,
 				D8A52D831DE580800065C5BF /* dazhao_30.png in Resources */,
 				D8A52DE91DE580800065C5BF /* xiaozhao2_35.png in Resources */,
 				D8A52D771DE580800065C5BF /* dazhao_2.png in Resources */,
-				D84CA82B1DDD8E55003CB297 /* CallHeadViewController.xib in Resources */,
 				D8A52DE71DE580800065C5BF /* xiaozhao2_33.png in Resources */,
 				D8A52DC61DE580800065C5BF /* stand_3.png in Resources */,
 				D8A52D8D1DE580800065C5BF /* dazhao_4.png in Resources */,
 				D8A52DE11DE580800065C5BF /* xiaozhao2_28.png in Resources */,
+				D8D82DA01DEBFA88001B6022 /* CallHeadViewController.xib in Resources */,
 				D8A52DCC1DE580800065C5BF /* stand_9.png in Resources */,
-				D841334F1DDC002C00FA9727 /* HelloIphoneViewController.xib in Resources */,
 				D8A52DBA1DE580800065C5BF /* dazhao_80.png in Resources */,
 				D8A52D9F1DE580800065C5BF /* dazhao_56.png in Resources */,
 				D841337B1DDD52C400FA9727 /* main.storyboard in Resources */,
@@ -810,17 +835,18 @@
 				D8A52DB71DE580800065C5BF /* dazhao_78.png in Resources */,
 				D8A52D7C1DE580800065C5BF /* dazhao_24.png in Resources */,
 				D8A52D6C1DE580800065C5BF /* dazhao_1.png in Resources */,
-				D881BD2C1DE293400028B8FF /* FirstViewController.xib in Resources */,
+				D8D82DBE1DEBFB1B001B6022 /* FirstViewController.xib in Resources */,
 				D8A52DA11DE580800065C5BF /* dazhao_58.png in Resources */,
 				D8A52D981DE580800065C5BF /* dazhao_5.png in Resources */,
+				D8D82DC01DEBFB1B001B6022 /* HistoryViewController.xib in Resources */,
 				D8A52DAD1DE580800065C5BF /* dazhao_69.png in Resources */,
 				D8A52D811DE580800065C5BF /* dazhao_29.png in Resources */,
 				D8A52D9D1DE580800065C5BF /* dazhao_54.png in Resources */,
 				D8A52DBD1DE580800065C5BF /* dazhao_83.png in Resources */,
 				D8A52DEE1DE580800065C5BF /* xiaozhao2_8.png in Resources */,
 				D8A52DB41DE580800065C5BF /* dazhao_75.png in Resources */,
-				D84CA8361DDEAA7F003CB297 /* songInfo.plist in Resources */,
 				D8A52DDC1DE580800065C5BF /* xiaozhao2_23.png in Resources */,
+				D8D82DA51DEBFA88001B6022 /* SonViewController.xib in Resources */,
 				D8A52D8B1DE580800065C5BF /* dazhao_38.png in Resources */,
 				D8A52D8A1DE580800065C5BF /* dazhao_37.png in Resources */,
 				D8A52DC21DE580800065C5BF /* dazhao_9.png in Resources */,
@@ -842,18 +868,17 @@
 				D8A52D711DE580800065C5BF /* dazhao_14.png in Resources */,
 				D8A52DCB1DE580800065C5BF /* stand_8.png in Resources */,
 				D8A52D971DE580800065C5BF /* dazhao_49.png in Resources */,
-				D84CA8301DDD8E83003CB297 /* HistoryViewController.xib in Resources */,
-				D881BD361DE2939D0028B8FF /* SecondViewController.xib in Resources */,
 				D8A52D781DE580800065C5BF /* dazhao_20.png in Resources */,
 				D8A52D731DE580800065C5BF /* dazhao_16.png in Resources */,
-				D881BD3B1DE293AE0028B8FF /* DisplaySettingViewController.xib in Resources */,
 				D8A52DC81DE580800065C5BF /* stand_5.png in Resources */,
 				D8A52D791DE580800065C5BF /* dazhao_21.png in Resources */,
 				D8A52D961DE580800065C5BF /* dazhao_48.png in Resources */,
 				D8A52DBC1DE580800065C5BF /* dazhao_82.png in Resources */,
 				D8A52DBE1DE580800065C5BF /* dazhao_84.png in Resources */,
+				D8D82DC21DEBFB1B001B6022 /* PopUpViewController.xib in Resources */,
 				D8A52DD61DE580800065C5BF /* xiaozhao2_18.png in Resources */,
 				D8A52DA81DE580800065C5BF /* dazhao_64.png in Resources */,
+				D8D82DBC1DEBFB1B001B6022 /* DisplaySettingViewController.xib in Resources */,
 				D8A52D751DE580800065C5BF /* dazhao_18.png in Resources */,
 				D8A52D821DE580800065C5BF /* dazhao_3.png in Resources */,
 				D8A52DC51DE580800065C5BF /* stand_2.png in Resources */,
@@ -862,7 +887,6 @@
 				D8A52DB01DE580800065C5BF /* dazhao_71.png in Resources */,
 				D8A52DDF1DE580800065C5BF /* xiaozhao2_26.png in Resources */,
 				D8A52D9B1DE580800065C5BF /* dazhao_52.png in Resources */,
-				D84133841DDD7DCA00FA9727 /* TabBarViewController.xib in Resources */,
 				D8A52DDE1DE580800065C5BF /* xiaozhao2_25.png in Resources */,
 				D8A52DC11DE580800065C5BF /* dazhao_87.png in Resources */,
 				D8A52DA51DE580800065C5BF /* dazhao_61.png in Resources */,
@@ -875,12 +899,13 @@
 				D8A52D7F1DE580800065C5BF /* dazhao_27.png in Resources */,
 				D8A52DCF1DE580800065C5BF /* xiaozhao2_11.png in Resources */,
 				D8A52DD81DE580800065C5BF /* xiaozhao2_2.png in Resources */,
+				D8D82DA71DEBFA88001B6022 /* TabBarViewController.xib in Resources */,
 				D8A52DC31DE580800065C5BF /* stand_1.png in Resources */,
-				D881BD401DE293BD0028B8FF /* PopUpViewController.xib in Resources */,
 				D8A52D8F1DE580800065C5BF /* dazhao_41.png in Resources */,
 				D8A52DA41DE580800065C5BF /* dazhao_60.png in Resources */,
 				D8A52D8E1DE580800065C5BF /* dazhao_40.png in Resources */,
 				D8A52DE31DE580800065C5BF /* xiaozhao2_3.png in Resources */,
+				D8D82DA21DEBFA88001B6022 /* NewCaseViewController.xib in Resources */,
 				D8A52DD41DE580800065C5BF /* xiaozhao2_16.png in Resources */,
 				D8A52DA31DE580800065C5BF /* dazhao_6.png in Resources */,
 				D8A52DE81DE580800065C5BF /* xiaozhao2_34.png in Resources */,
@@ -889,13 +914,14 @@
 				D8A52DB11DE580800065C5BF /* dazhao_72.png in Resources */,
 				D8A52DD01DE580800065C5BF /* xiaozhao2_12.png in Resources */,
 				D8A52DB31DE580800065C5BF /* dazhao_74.png in Resources */,
+				D8D82DCB1DEBFD51001B6022 /* AutoLayout.storyboard in Resources */,
 				D8A52DCE1DE580800065C5BF /* xiaozhao2_10.png in Resources */,
 				D8A52D841DE580800065C5BF /* dazhao_31.png in Resources */,
 				D8A52DD31DE580800065C5BF /* xiaozhao2_15.png in Resources */,
+				D8D82D901DEBF665001B6022 /* HelloIphoneViewController.xib in Resources */,
 				D8A52DAC1DE580800065C5BF /* dazhao_68.png in Resources */,
 				D8A52D991DE580800065C5BF /* dazhao_50.png in Resources */,
 				D8A52D901DE580800065C5BF /* dazhao_42.png in Resources */,
-				D84CA8251DDD8D7A003CB297 /* NewCaseViewController.xib in Resources */,
 				D8A52D7E1DE580800065C5BF /* dazhao_26.png in Resources */,
 				D8A52DDD1DE580800065C5BF /* xiaozhao2_24.png in Resources */,
 				D841333F1DDBEF7B00FA9727 /* Assets.xcassets in Resources */,
@@ -957,24 +983,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D881BD351DE2939D0028B8FF /* SecondViewController.m in Sources */,
+				D8D82DC31DEBFB1B001B6022 /* SecondViewController.m in Sources */,
+				D8D82DC91DEBFCB1001B6022 /* AutoLayoutDelegate.m in Sources */,
+				D8D82D9F1DEBFA88001B6022 /* CallHeadViewController.m in Sources */,
+				D8D82DA61DEBFA88001B6022 /* TabBarDelagate.m in Sources */,
+				D8D82D8E1DEBF665001B6022 /* AppDelegate.m in Sources */,
+				D8D82DBF1DEBFB1B001B6022 /* HistoryViewController.m in Sources */,
+				D8D82D8F1DEBF665001B6022 /* HelloIphoneViewController.m in Sources */,
 				D8B3A1FC1DE7D6F900D04A55 /* MBProgressHUD+Add.m in Sources */,
-				D84133341DDBEF7B00FA9727 /* AppDelegate.m in Sources */,
+				D8D82DA41DEBFA88001B6022 /* SonViewController.m in Sources */,
 				D8B3A1FE1DE7D6F900D04A55 /* RocNetHandler.m in Sources */,
+				D8D82DBD1DEBFB1B001B6022 /* FirstViewController.m in Sources */,
+				D8D82DC51DEBFB1B001B6022 /* TabNavDelegate.m in Sources */,
 				D8B3A2001DE7D6F900D04A55 /* RocNetManager.m in Sources */,
+				D8D82DBB1DEBFB1B001B6022 /* DisplaySettingViewController.m in Sources */,
+				D8D82DA11DEBFA88001B6022 /* NewCaseViewController.m in Sources */,
 				D8B3A1FF1DE7D6F900D04A55 /* RocNetItem.m in Sources */,
 				D84133311DDBEF7B00FA9727 /* main.m in Sources */,
-				D881BD3F1DE293BD0028B8FF /* PopUpViewController.m in Sources */,
-				D84CA82A1DDD8E55003CB297 /* CallHeadViewController.m in Sources */,
-				D84CA82F1DDD8E83003CB297 /* HistoryViewController.m in Sources */,
+				D8D82DC11DEBFB1B001B6022 /* PopUpViewController.m in Sources */,
 				D8B3A1FD1DE7D6F900D04A55 /* MBProgressHUD.m in Sources */,
-				D881BD3A1DE293AE0028B8FF /* DisplaySettingViewController.m in Sources */,
-				D84133871DDD7E1F00FA9727 /* TabBarDelagate.m in Sources */,
-				D881BD271DE292810028B8FF /* TabNavDelegate.m in Sources */,
-				D881BD2B1DE293400028B8FF /* FirstViewController.m in Sources */,
 				D841333D1DDBEF7B00FA9727 /* HelloIphone.xcdatamodeld in Sources */,
-				D841334E1DDC002C00FA9727 /* HelloIphoneViewController.m in Sources */,
-				D84CA8241DDD8D7A003CB297 /* NewCaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1087,6 +1115,7 @@
 			baseConfigurationReference = FA23BF46C6C49D8C1B14D261 /* Pods-HelloIphone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = VX3ZYP5V33;
 				INFOPLIST_FILE = HelloIphone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1100,6 +1129,7 @@
 			baseConfigurationReference = DE07241D0AB19EAC71F1306A /* Pods-HelloIphone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = VX3ZYP5V33;
 				INFOPLIST_FILE = HelloIphone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
